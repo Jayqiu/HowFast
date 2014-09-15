@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">HowFast</string>
+    <string name="main_satrt_btn_text">Start</string>
+    <string name="main_settings_btn_text">Settings</string>
+    <string name="game_restart">Restart</string>
+    <string name="game_start">Start</string>
+    <string name="game_score">Score</string>
+    <string name="game_best_score">Best</string>
+    <string name="setting_open_text">Open</string>
+    <string name="setting_close_text">Close</string>
+
+</resources>

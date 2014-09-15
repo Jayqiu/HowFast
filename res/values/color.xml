@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- 白色 -->
+    <color name="white">#ffffff</color>
+    <!--  -->
+    <color name="main_bg">#faf8ef</color>
+    <!--  -->
+    <color name="gray_bg">#bbada0</color>
+    <!--  -->
+    <color name="suntan_bg">#8f7a66</color>
+    <!--  -->
+    <color name="gray_text">#776e65</color>
+    <color name="gray_btn_bg">#ccc0b3</color>
+
+</resources>

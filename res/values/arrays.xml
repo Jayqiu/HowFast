@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="grid_items">
+        <item>3 x 3</item>
+        <item>4 x 4</item>
+        <item>5 x 5</item>
+    </string-array>
+    <string-array name="game_mode">
+        <item>Normal Mode</item>
+        <item>Challenge Mode</item>
+    </string-array>
+
+</resources>

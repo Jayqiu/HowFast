@@ -1,0 +1,315 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_32"
+        android:layout_marginLeft="@dimen/height_8"
+        android:gravity="left|center"
+        android:text="@string/main_settings_btn_text"
+        android:textColor="@color/gray_text"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rl_grid"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grid"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="The ranks of grid number"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_grid_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/height_8"
+            android:text="@string/setting_open_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_small" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_game_mode"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Game Mode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:id="@+id/tv_game_mode"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Challenge Mode"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_hint"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hint"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Correct number under the orders of the mistake"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hint_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/height_8"
+            android:text="@string/setting_open_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_hidden"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hidden"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Click on the Numbers after hiding"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_hidden_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/height_8"
+            android:text="@string/setting_open_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_shake"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Shake"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital point vibration"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_shake_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/height_8"
+            android:text="@string/setting_open_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+
+    <RelativeLayout
+        android:id="@+id/rl_sound"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_48"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Sound"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Digital point hint sound"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_sound_switch"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="@dimen/height_8"
+            android:text="@string/setting_open_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium" />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/height_32"
+        android:layout_marginLeft="@dimen/height_8"
+        android:gravity="left|center"
+        android:text="About"
+        android:textColor="@color/gray_text"
+        android:textSize="@dimen/text_size_medium"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/rl_about"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_bg" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:paddingLeft="@dimen/height_8" >
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="About the App"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_large" />
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/height_8"
+                android:text="Schulte table can exercise through the practice of dynamic optic nerve endings. Use this form to the research and development on psychology psychological perception of speed, including visual directional search movement speed."
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_size_micro" />
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

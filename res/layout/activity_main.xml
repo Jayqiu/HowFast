@@ -1,0 +1,66 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_weight="50"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <com.threehalf.howfast.view.TitanicTextView
+            android:id="@+id/tv_app_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="@string/app_name"
+            android:textColor="#212121"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_app_name"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:layout_weight="50"
+        android:orientation="vertical" >
+
+        <Button
+            android:id="@+id/btn_main_start"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/height_40"
+            android:layout_marginBottom="@dimen/height_8"
+            android:background="@drawable/btn_main"
+            android:text="@string/main_satrt_btn_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/btn_main_setting"
+            android:layout_width="150dp"
+            android:layout_height="@dimen/height_40"
+            android:layout_marginBottom="@dimen/height_8"
+            android:background="@drawable/btn_main"
+            android:text="@string/main_settings_btn_text"
+            android:textColor="@color/white"
+            android:textSize="@dimen/text_size_medium"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+   
+
+</LinearLayout>
